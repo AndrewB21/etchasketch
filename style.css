@@ -1,0 +1,30 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 960px;
+    height: 960px;
+}
+
+.rowDiv{
+    background-color: lightgray;
+    filter: brightness(100%);
+    border: solid black 1px;
+}
+
+.break{
+    flex: 0 0 100%;
+}
+
+.clear{
+    padding: 10px;
+    font-size: 2rem;
+    width: 200px;
+    margin: 10px;
+}
